@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OpencvJni</string>
+
+    <string name="str_proc">gray process</string>
+    <string name="str_canny">Canny</string>
+    <string name="str_epf">EPF</string>
+    <string name="str_cartoon">Cartoon</string>
+    <string name="exit">Exit</string>
+    <string name="str_desc">image description</string>
+</resources>
