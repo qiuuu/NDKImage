@@ -112,4 +112,11 @@ Glide以异步方式加载图像，因此，在启动加载操作后，对位图
                 })
 
                 .into(imageView);
+                
+https://mrfu.me/2016/02/27/Glide_Advanced_Loading/              
 
+就像 Picasso， Glide 库是使用流接口(fluent interface)。对一个完整的功能请求，Glide 建造者要求最少有三个参数。
+
+* with(Context context) - 对于很多 Android API 调用，Context 是必须的。Glide 在这里也一样
+* load(String imageUrl) - 这里你可以指定哪个图片应该被加载，同上它会是一个字符串的形式表示一个网络图片的 URL
+* into(ImageView targetImageView) 你的图片会显示到对应的 ImageView 中。
